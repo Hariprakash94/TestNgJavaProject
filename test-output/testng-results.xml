@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9731" started-at="2020-03-08T23:11:14Z" finished-at="2020-03-08T23:11:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9731" started-at="2020-03-08T23:11:14Z" finished-at="2020-03-08T23:11:24Z">
+      <class name="page_objects.AutomationPracticeTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:page_objects.AutomationPracticeTests@100fc185]" name="setup" is-config="true" duration-ms="4455" started-at="2020-03-08T19:11:14Z" finished-at="2020-03-08T19:11:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="create_an_account()[pri:0, instance:page_objects.AutomationPracticeTests@100fc185]" name="create_an_account" duration-ms="5267" started-at="2020-03-08T19:11:18Z" finished-at="2020-03-08T19:11:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_an_account -->
+      </class> <!-- page_objects.AutomationPracticeTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
