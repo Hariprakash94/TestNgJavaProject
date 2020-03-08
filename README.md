@@ -20,3 +20,10 @@ TestNG is a testing framework inspired from JUnit and NUnit but introducing some
   - In Eclipse, Window --> Preferences --> Installed JREs, Mkae sure its pointed to the installed JRE.
   - Add required Maven Dependencies in POM.XML
 
+# TestNG Files!
+  - Navigate to src/main/java/page_objects
+  - This folder contains five files.
+  - Navigate to AutomationPracticeTests.java class.
+  - Once all the jars are added to the build path like testng.jar, selenium jars etc
+  - Right click on the Test class and Run as --> TestNG Test
+
