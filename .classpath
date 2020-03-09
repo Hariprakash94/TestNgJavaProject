@@ -32,15 +32,26 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/19378/Downloads/Compressed/java_jars/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/19378/Downloads/Compressed/java_jars/com.springsource.org.apache.log4j-1.2.15.jar"/>
-	<classpathentry kind="lib" path="C:/Users/19378/Downloads/Compressed/java_jars/jmxtools-1.2.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/19378/Downloads/Compressed/java_jars/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
-	<classpathentry kind="lib" path="C:/Users/19378/Downloads/Compressed/java_jars/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
-	<classpathentry kind="lib" path="C:/Users/19378/Downloads/Compressed/java_jars/org.springframework.context-3.0.1.RELEASE-A.jar"/>
-	<classpathentry kind="lib" path="C:/Users/19378/Downloads/Compressed/java_jars/org.springframework.core-3.0.1.RELEASE-A.jar"/>
-	<classpathentry kind="lib" path="C:/Users/19378/Downloads/Compressed/java_jars/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
 	<classpathentry kind="lib" path="C:/java_libs/selenium-java-2.41.0.jar"/>
 	<classpathentry kind="lib" path="C:/java_libs/selenium-server-standalone-2.46.0.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/com.springsource.org.apache.log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/cucumber-core-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/cucumber-java-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/cucumber-junit-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/cucumber-reporting-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/jmxtools-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="C:/java_libs/testng-7.1.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

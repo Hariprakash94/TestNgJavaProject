@@ -26,7 +26,7 @@ public class AutomationPracticeTests {
 		System.setProperty("webdriver.chrome.driver", driverPath);
 
 		driver = new ChromeDriver();
-
+		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		driver.get("http://automationpractice.com/index.php");
@@ -36,6 +36,7 @@ public class AutomationPracticeTests {
 	
 	@Test(priority = 0)	
 	public void create_an_account() {
+		
 		objHomePage = new AutomationpracticeHomePage(driver);
 		objHomePage.click_on_sign_in();
 		

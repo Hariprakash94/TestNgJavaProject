@@ -10,9 +10,8 @@ public class AuthenticationPage {
 	public AuthenticationPage(WebDriver driver){
 
         this.driver = driver;
-
     }
-
+ 
 	    By email_address = By.id("email_create");
 	    By create_an_account = By.id("SubmitCreate");
 	    
