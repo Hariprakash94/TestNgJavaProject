@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9796" started-at="2020-03-10T00:48:54Z" finished-at="2020-03-10T00:49:04Z">
+  <suite name="Default suite" duration-ms="14500" started-at="2020-03-10T01:06:24Z" finished-at="2020-03-10T01:06:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9796" started-at="2020-03-10T00:48:54Z" finished-at="2020-03-10T00:49:04Z">
+    <test name="Default test" duration-ms="14500" started-at="2020-03-10T01:06:24Z" finished-at="2020-03-10T01:06:39Z">
       <class name="webUITests.AutomationPracticeTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:webUITests.AutomationPracticeTests@20e2cbe0]" name="setup" is-config="true" duration-ms="4572" started-at="2020-03-09T20:48:54Z" finished-at="2020-03-09T20:48:58Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:webUITests.AutomationPracticeTests@2a2d45ba]" name="setup" is-config="true" duration-ms="4448" started-at="2020-03-09T21:06:24Z" finished-at="2020-03-09T21:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="create_an_account()[pri:0, instance:webUITests.AutomationPracticeTests@20e2cbe0]" name="create_an_account" duration-ms="5151" started-at="2020-03-09T20:48:58Z" finished-at="2020-03-09T20:49:04Z">
+        <test-method status="PASS" signature="create_an_account()[pri:0, instance:webUITests.AutomationPracticeTests@2a2d45ba]" name="create_an_account" duration-ms="4988" started-at="2020-03-09T21:06:29Z" finished-at="2020-03-09T21:06:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- create_an_account -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:webUITests.AutomationPracticeTests@20e2cbe0]" name="tearDown" is-config="true" duration-ms="64" started-at="2020-03-09T20:49:04Z" finished-at="2020-03-09T20:49:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:webUITests.AutomationPracticeTests@2a2d45ba]" name="tearDown" is-config="true" duration-ms="5055" started-at="2020-03-09T21:06:34Z" finished-at="2020-03-09T21:06:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

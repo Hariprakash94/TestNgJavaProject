@@ -16,7 +16,7 @@ public class AuthenticationPage {
 	    By create_an_account = By.id("SubmitCreate");
 	    
 	    public void enterEmailAndCreateAccount() {
-	    	driver.findElement(email_address).sendKeys("johndoe+test10@gmail.com",Keys.TAB);
+	    	driver.findElement(email_address).sendKeys("johndoe+test11@gmail.com",Keys.TAB);
 	    	driver.findElement(create_an_account).click();
 	    }
 }
