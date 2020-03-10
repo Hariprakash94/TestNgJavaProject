@@ -1,7 +1,9 @@
-package page_objects;
+package pageClasses;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import helperClasses.TestHelper;
 
 
 public class CreateAnAccountPage extends TestHelper{
@@ -51,8 +53,6 @@ public class CreateAnAccountPage extends TestHelper{
 		driver.findElement(phone_mobile).sendKeys("123456789");
 		driver.findElement(btn_submit).click();
 
-		
-		
 
 	}
 }

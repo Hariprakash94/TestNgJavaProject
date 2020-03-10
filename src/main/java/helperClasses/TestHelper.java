@@ -1,4 +1,4 @@
-package page_objects;
+package helperClasses;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="page_objects.AutomationPracticeTests">
+      <class name="webUITests.AutomationPracticeTests">
         <methods>
           <include name="setup"/>
           <include name="create_an_account"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- page_objects.AutomationPracticeTests -->
+      </class> <!-- webUITests.AutomationPracticeTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

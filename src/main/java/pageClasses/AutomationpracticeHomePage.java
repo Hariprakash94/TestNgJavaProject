@@ -1,7 +1,9 @@
-package page_objects;
+package pageClasses;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import helperClasses.TestHelper;
 
 public class AutomationpracticeHomePage extends TestHelper{
 

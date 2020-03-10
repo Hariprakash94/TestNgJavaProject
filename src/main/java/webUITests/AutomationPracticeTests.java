@@ -1,14 +1,18 @@
-package page_objects;
+package webUITests;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.testng.Assert;
-
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import org.testng.annotations.Test;
+
+import pageClasses.AuthenticationPage;
+import pageClasses.AutomationpracticeHomePage;
+import pageClasses.CreateAnAccountPage;
 
 public class AutomationPracticeTests {
 
@@ -26,6 +30,8 @@ public class AutomationPracticeTests {
 		System.setProperty("webdriver.chrome.driver", driverPath);
 
 		driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
@@ -45,5 +51,14 @@ public class AutomationPracticeTests {
 		
 		CreateAnAccountPage createAnAccountPage = new CreateAnAccountPage(driver);
 		createAnAccountPage.fill_create_account_page();
+	}
+	
+	@AfterTest
+	public void tearDown() throws InterruptedException {
+		
+		Thread.sleep(5000);
+		
+		driver.close();
+
 	}
 }
