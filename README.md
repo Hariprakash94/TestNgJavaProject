@@ -4,6 +4,10 @@ TestNG is a testing framework inspired from JUnit and NUnit but introducing some
   - Annotations
   - Support for data-driven testing (with @DataProvider).
   - Support for parameters.
+  
+# Techstack
+  - Java 8
+  - TestNG - 7.1.0
 
 # Project Set-up!
 
