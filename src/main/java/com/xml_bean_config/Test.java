@@ -1,23 +1,14 @@
 package com.xml_bean_config;
 
-import org.apache.log4j.BasicConfigurator;
-import org.springframework.beans.factory.BeanFactory;
-import org.springframework.beans.factory.xml.XmlBeanFactory;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
+import org.testng.TestNG;
 
 public class Test {
-	
+
 	public static void main(String[] args) {
-		
-		BasicConfigurator.configure();
-		
-		Resource resource = new ClassPathResource("applicationContext.xml");
-
-		BeanFactory factory = new XmlBeanFactory(resource);
-
-		Student student = (Student) factory.getBean("studentbean");
-
-		student.displayInfo();
+		System.out.println("Hello from Main");
+		TestNG testSuite = new TestNG();
+		testSuite.setTestClasses(new Class[] { com.xml_bean_config.AutomateEdgeBrowser.class });
+		testSuite.run();
 	}
+
 }

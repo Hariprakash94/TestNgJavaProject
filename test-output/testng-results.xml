@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14500" started-at="2020-03-10T01:06:24Z" finished-at="2020-03-10T01:06:39Z">
+  <suite name="Suite" duration-ms="3055" started-at="2020-06-07T19:27:27Z" finished-at="2020-06-07T19:27:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14500" started-at="2020-03-10T01:06:24Z" finished-at="2020-03-10T01:06:39Z">
-      <class name="webUITests.AutomationPracticeTests">
-        <test-method status="PASS" signature="setup()[pri:0, instance:webUITests.AutomationPracticeTests@2a2d45ba]" name="setup" is-config="true" duration-ms="4448" started-at="2020-03-09T21:06:24Z" finished-at="2020-03-09T21:06:29Z">
+    <test name="Test" duration-ms="3055" started-at="2020-06-07T19:27:27Z" finished-at="2020-06-07T19:27:30Z">
+      <class name="com.xml_bean_config.AutomateEdgeBrowser">
+        <test-method status="PASS" signature="TestEdgeBrowser()[pri:0, instance:com.xml_bean_config.AutomateEdgeBrowser@4678c730]" name="TestEdgeBrowser" duration-ms="3023" started-at="2020-06-07T15:27:27Z" finished-at="2020-06-07T15:27:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="create_an_account()[pri:0, instance:webUITests.AutomationPracticeTests@2a2d45ba]" name="create_an_account" duration-ms="4988" started-at="2020-03-09T21:06:29Z" finished-at="2020-03-09T21:06:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- create_an_account -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:webUITests.AutomationPracticeTests@2a2d45ba]" name="tearDown" is-config="true" duration-ms="5055" started-at="2020-03-09T21:06:34Z" finished-at="2020-03-09T21:06:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- webUITests.AutomationPracticeTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- TestEdgeBrowser -->
+      </class> <!-- com.xml_bean_config.AutomateEdgeBrowser -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
